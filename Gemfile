@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.2.1'
+# ruby '2.2.1' removing version to test with CENTOS 2.0.0
 
 gem 'uuid'
 gem 'base62'
