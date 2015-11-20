@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-# ruby '2.2.1' removing version to test with CENTOS 2.0.0
+ruby '2.2.3'
 
 gem 'uuid'
 gem 'base62'
@@ -21,6 +21,7 @@ gem 'facter'
 gem 'rufus-scheduler'
 gem 'puma'
 gem 'rubyipmi'
+gem 'bzip2-ruby', '0.2.7', :git => 'https://github.com/chewi/bzip2-ruby.git'
 
 group :test do
   gem 'rspec'
